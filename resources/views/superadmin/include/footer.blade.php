@@ -667,6 +667,14 @@
 <script src="{{ URL::asset('public/dashboard_assets/js/app.js')}}"></script>
 
 <script src="{{ URL::asset('public/dashboard_assets/js/pages/passowrd-create.init.js')}}"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
 
 </body>
 

@@ -44,6 +44,22 @@ return [
             'driver' => 'session',
             'provider' => 'superadmins',
         ],
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admins',
+        ],
+        'digitalmarketer' => [
+            'driver' => 'session',
+            'provider' => 'digitalmarketers',
+        ],
+        'contentcreator' => [
+            'driver' => 'session',
+            'provider' => 'contentcreators',
+        ],
+        'backlinkmanager' => [
+            'driver' => 'session',
+            'provider' => 'backlinkmanagers',
+        ],
     ],
 
     /*
@@ -71,6 +87,22 @@ return [
         'superadmins' => [
             'driver' => 'eloquent',
             'model' => App\Models\Superadmin::class,
+        ],
+        'admins' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Admin::class,
+        ],
+        'digitalmarketers' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Digitalmarketer::class,
+        ],
+        'contentcreators' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Contentcreator::class,
+        ],
+        'backlinkmanagers' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Backlinkmanager::class,
         ],
 
         // 'users' => [

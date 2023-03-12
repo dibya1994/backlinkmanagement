@@ -47,9 +47,9 @@
                                             <div class="card-body">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <p class="fw-medium text-muted mb-0">Report</p>
+                                                        <p class="fw-medium text-muted mb-0">Total No of Admin</p>
                                                         <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value" data-target="{{ $total_user }}">{{ $total_user }}</span></h2>
-                                                        <a href="{{ url('/superadmin/fieldexpert') }}"><p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> View</span></p></a>
+                                                        <a href="{{ url('/superadmin/admin') }}"><p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> View</span></p></a>
                                                     </div>
                                                     <div>
                                                         <div class="avatar-sm flex-shrink-0">
@@ -67,7 +67,7 @@
                                             <div class="card-body">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <p class="fw-medium text-muted mb-0">Report</p>
+                                                        <p class="fw-medium text-muted mb-0">Total No of Packages</p>
                                                         <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value" data-target="{{  $total_user }}">{{  $total_user }}</span></h2>
                                                         <a href="{{ url('/superadmin/fieldexpert') }}"><p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> View</span></p></a>
                                                     </div>
@@ -87,7 +87,7 @@
                                             <div class="card-body">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <p class="fw-medium text-muted mb-0">Report</p>
+                                                        <p class="fw-medium text-muted mb-0">Total Payment of Today</p>
                                                         <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value" data-target="{{ $total_user }}">{{ $total_user }}</span></h2>
                                                         <a href="{{ url('/superadmin/fieldexpert') }}"><p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> View</span></p></a>
                                                     </div>
@@ -107,7 +107,87 @@
                                             <div class="card-body">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <p class="fw-medium text-muted mb-0">Report</p>
+                                                        <p class="fw-medium text-muted mb-0">Total Payment</p>
+                                                        <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value" data-target="{{ $total_user }}">{{ $total_user }}</span></h2>
+                                                        <a href="{{ url('/superadmin/fieldexpert') }}"><p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> View</span></p></a>
+                                                    </div>
+                                                    <div>
+                                                        <div class="avatar-sm flex-shrink-0">
+                                                            <span class="avatar-title bg-soft-info rounded-circle fs-2">
+                                                                <i data-feather="activity" class="text-info"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-animate">
+                                            <div class="card-body">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <p class="fw-medium text-muted mb-0">Total No of Projects</p>
+                                                        <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value" data-target="{{ $total_user }}">{{ $total_user }}</span></h2>
+                                                        <a href="{{ url('/superadmin/fieldexpert') }}"><p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> View</span></p></a>
+                                                    </div>
+                                                    <div>
+                                                        <div class="avatar-sm flex-shrink-0">
+                                                            <span class="avatar-title bg-soft-info rounded-circle fs-2">
+                                                                <i data-feather="activity" class="text-info"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-animate">
+                                            <div class="card-body">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <p class="fw-medium text-muted mb-0">Total No of Backlink Websites</p>
+                                                        <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value" data-target="{{ $total_user }}">{{ $total_user }}</span></h2>
+                                                        <a href="{{ url('/superadmin/fieldexpert') }}"><p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> View</span></p></a>
+                                                    </div>
+                                                    <div>
+                                                        <div class="avatar-sm flex-shrink-0">
+                                                            <span class="avatar-title bg-soft-info rounded-circle fs-2">
+                                                                <i data-feather="activity" class="text-info"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-animate">
+                                            <div class="card-body">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <p class="fw-medium text-muted mb-0">Total No of Backlink Websites added Today</p>
+                                                        <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value" data-target="{{ $total_user }}">{{ $total_user }}</span></h2>
+                                                        <a href="{{ url('/superadmin/fieldexpert') }}"><p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> View</span></p></a>
+                                                    </div>
+                                                    <div>
+                                                        <div class="avatar-sm flex-shrink-0">
+                                                            <span class="avatar-title bg-soft-info rounded-circle fs-2">
+                                                                <i data-feather="activity" class="text-info"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-animate">
+                                            <div class="card-body">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <p class="fw-medium text-muted mb-0">Total Payment</p>
                                                         <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value" data-target="{{ $total_user }}">{{ $total_user }}</span></h2>
                                                         <a href="{{ url('/superadmin/fieldexpert') }}"><p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> View</span></p></a>
                                                     </div>

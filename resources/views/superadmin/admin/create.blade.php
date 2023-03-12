@@ -66,13 +66,15 @@
                                             <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
                                         </div>
                                     </div>
-                                    {{-- <div class="col-xxl-3 col-md-6">
+                                    <div class="col-xxl-3 col-md-6">
                                         <div>
-                                            <label for="placeholderInput" class="form-label">Image*</label>
-                                            <input type="file" class="form-control" name="image" required>
-                                            <span style="color:red;">Max image size 1000kb</span>
+                                            <label for="placeholderInput" class="form-label">Active Permission*</label>
+                                            <select class="form-control" name="active_status" required>
+                                                <option value="YES">YES</option>
+                                                <option value="NO">NO</option>
+                                            </select>
                                         </div>
-                                    </div> --}}
+                                    </div>
                                     
                                 </div>
                                 <div class="row">

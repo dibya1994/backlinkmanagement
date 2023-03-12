@@ -12,9 +12,12 @@
 <body>
     <h2 class="text-center mt-4">Welcome to Management Software</h2>
     <div class="row mx-0 justify-content-center">
-        <div class="col-md-4 text-center">
+        <div class="col-md-12 text-center">
             <a href="{{ URL('/superadmin') }}"><button class="btn btn-primary">Super Admin Panel</button></a>
             <a href="{{ URL('/admin') }}"><button class="btn btn-primary">Admin  Panel</button></a>
+            <a href="{{ URL('/digitalmarketer') }}"><button class="btn btn-primary">Digital Marketer  Panel</button></a>
+            <a href="{{ URL('/contentcreator') }}"><button class="btn btn-primary">Content Creator  Panel</button></a>
+            <a href="{{ URL('/backlinkmanager') }}"><button class="btn btn-primary">Backlink Manager  Panel</button></a>
         </div>
     </div>
     

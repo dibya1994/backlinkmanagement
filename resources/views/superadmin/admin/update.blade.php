@@ -69,6 +69,15 @@
                                                 <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
                                             </div>
                                         </div>
+                                        <div class="col-xxl-3 col-md-6">
+                                            <div>
+                                                <label for="placeholderInput" class="form-label">Active Permission*</label>
+                                                <select class="form-control" name="active_status" required>
+                                                    <option value="YES" {{ $admin->active_status=='YES'?'selected':'' }}>YES</option>
+                                                    <option value="NO" {{ $admin->active_status=='NO'?'selected':'' }}>NO</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                     
                                         
                                     </div>

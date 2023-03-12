@@ -33,6 +33,7 @@
                                         <th>Name</th>
                                         <th>Email</th>
                                         <th>Phone</th>
+                                        <th>Active Permission</th>
                                         <th>Edit</th>
                                         <th>Delete</th>
                                     </tr>
@@ -48,6 +49,7 @@
                                             <td>{{$details->name}}</td>
                                             <td>{{$details->email}}</td>
                                             <td>{{$details->phone}}</td>
+                                            <td>{{$details->active_status}}</td>
                                             <td><a href="{{url('/superadmin/admin/'.$details->id.'/edit')}}"><i data-feather="edit"></i></a></td>
                                             <td><i data-feather="archive" onclick="delete_row({{$details->id}})"></i></td>
                                             <form action="{{url('/superadmin/admin/'.$details->id)}}" method="post" id="delete_submit{{$details->id}}" style="display:none;">

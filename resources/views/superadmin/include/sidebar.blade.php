@@ -41,6 +41,30 @@ $page_name=$path[4];
                     </a>
                 </li> 
 
+                <li class="nav-item">
+                    <a class="nav-link {{$page_name=='termscondition'?'active':''}}" href="{{ url('/superadmin/termscondition') }}">
+                        <i class="fa fa-user-o" aria-hidden="true"></i> <span data-key="t-dashboards">Terms & Conditions</span>
+                    </a>
+                </li> 
+
+                <li class="nav-item">
+                    <a class="nav-link {{$page_name=='privacypolicy'?'active':''}}" href="{{ url('/superadmin/privacypolicy') }}">
+                        <i class="fa fa-user-o" aria-hidden="true"></i> <span data-key="t-dashboards">Privacy Policy</span>
+                    </a>
+                </li> 
+
+                <li class="nav-item">
+                    <a class="nav-link {{$page_name=='aboutus'?'active':''}}" href="{{ url('/superadmin/aboutus') }}">
+                        <i class="fa fa-user-o" aria-hidden="true"></i> <span data-key="t-dashboards">About Us</span>
+                    </a>
+                </li> 
+
+                <li class="nav-item">
+                    <a class="nav-link {{$page_name=='package'?'active':''}}" href="{{ url('/superadmin/package') }}">
+                        <i class="fa fa-user-o" aria-hidden="true"></i> <span data-key="t-dashboards">Package</span>
+                    </a>
+                </li> 
+
 
                 {{-- <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarApps" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarApps">
